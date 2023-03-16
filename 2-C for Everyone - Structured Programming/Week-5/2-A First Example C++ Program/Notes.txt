@@ -1,0 +1,6 @@
+"inline" keyword
+----------------
+
+C++ 's intention was to remove #define, because they are error prone.
+Inline's intension was to do the job of macros.
+Inline is used for optimization.

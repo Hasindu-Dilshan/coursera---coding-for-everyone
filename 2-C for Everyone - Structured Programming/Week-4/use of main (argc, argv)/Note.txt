@@ -1,0 +1,3 @@
+int main(int argc, char *argv[]) // from the double spacing program
+
+- char *argv[] is same as char **argv

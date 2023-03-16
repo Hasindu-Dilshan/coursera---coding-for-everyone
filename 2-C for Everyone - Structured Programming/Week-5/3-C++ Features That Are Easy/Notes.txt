@@ -1,0 +1,25 @@
+"auto" keyword
+--------------
+Ex:
+auto i = 3;
+
+- Called "duck typing".
+- Useful when types get very complicated.
+
+STL - Standard Template Library
+-------------------------------
+- Add many container classes (Ex: Lists, Stacks, Vector)
+- Algorithms for using
+
+Vector
+------
+- A powerful, flexible and efficient generalization of the array.
+
+Ex:
+   int a[N];
+   Becomes
+   vector <int> a(N);
+
+*** NOTE
+--------
+- In  C++ is used to infer type as in  auto x = 2.0;  means x is double.

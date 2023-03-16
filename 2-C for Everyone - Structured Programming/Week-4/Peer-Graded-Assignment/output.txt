@@ -1,0 +1,2 @@
+average = 11.750000
+maximum value = 15
