@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h> // exit()
 
-void print_file(FILE *fptr)
+void print_file(FILE* fptr)
 {
 	int c;
 	rewind(fptr);
@@ -17,7 +17,7 @@ void print_file(FILE *fptr)
 		putc(c, stdout);
 }
 
-void double_space(FILE *ifp, FILE *ofp) 
+void double_space(FILE* ifp, FILE* ofp) 
 {
 	int c;
 	rewind(ifp);
@@ -30,7 +30,7 @@ void double_space(FILE *ifp, FILE *ofp)
 	}
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	FILE *ifp, *ofp;
 
 	if(argc != 3) {

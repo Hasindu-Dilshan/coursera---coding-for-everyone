@@ -4,7 +4,7 @@
 
 typedef struct list {
 	int data;
-	struct list * next;
+	struct list* next;
 } list;
 
 list* create_item (int data) {

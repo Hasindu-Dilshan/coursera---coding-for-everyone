@@ -2,7 +2,7 @@
 // First use of C++
 
 #include <iostream>
-using namespace :: std;
+using namespace std;
 const double m_to_k = 1.609;
 
 inline double convert(int mi){ return (mi * m_to_k); }

@@ -8,27 +8,27 @@ typedef struct stack {
 	int top;
 } stack;
 
-void reset (stack * stk) {
+void reset (stack* stk) {
 	stk->top = EMPTY;
 }
 
-void push (char c, stack * stk) {
+void push (char c, stack* stk) {
 	if(!isFull(stk)){
 		stk->top++;
 		stk->string[stk->top] = c;
 	}
 }
 
-char pop (stack * stk) {
+char pop (stack* stk) {
 	if(!isEmpty(stk))
 		return stk->string[stk->top--];
 }
 
-int isFull(stack *stk) {
+int isFull(stack* stk) {
 	return (stk->top == MAX_LEN - 1);
 }
 
-int isEmpty(stack *stk) {
+int isEmpty(stack* stk) {
 	return (stk->top == EMPTY);
 }
 

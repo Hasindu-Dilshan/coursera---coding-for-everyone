@@ -2,7 +2,7 @@
 
 #define MAX_HW 20
 
-void read_data(FILE *ptr, int d[], int *size)
+void read_data(FILE* ptr, int d[], int* size)
 {
 	*size = 0;
 	
